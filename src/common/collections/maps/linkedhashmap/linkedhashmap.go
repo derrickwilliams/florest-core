@@ -148,5 +148,4 @@ func (m *Map) String() string {
 		str += fmt.Sprintf("%v:%v ", current.key, current.value)
 	}
 	return strings.TrimRight(str, " ") + "]"
-	return str
 }
